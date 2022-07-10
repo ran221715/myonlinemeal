@@ -92,7 +92,7 @@ html{
 #home::before{ 
     content: "";
     position: absolute;
-    background: url('../bg1.jpg') no-repeat center center/cover;
+    background: url('bg1.jpg') no-repeat center center/cover;
     height: 642px;
     top:0px;
     left:0px;
@@ -145,7 +145,7 @@ html{
 #client-section::before{
  content: "";
  position: absolute;
- background: url('../bg.jpg');
+ background: url('bg.jpg');
  width: 100%;
  height: 100%;
  z-index: -1;
@@ -178,7 +178,7 @@ html{
     height: 100%;
     z-index: -1;
     opacity: 0.7;
-    background: url('../contact.jpg') no-repeat center center/cover;
+    background: url('contact.jpg') no-repeat center center/cover;
 
 }
 #contact-box{
@@ -239,6 +239,68 @@ footer{
 .center{
     text-align: center;
 }
+@media only screen and (max-width: 1170px){
+#navbar {
+    flex-direction: column;
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+
+#home{
+    height: 370px; 
+    padding: 3px 28px;
+}
+
+#home::before{
+    height: 480px; 
+}
+
+#home p{
+    font-size: 13px;
+}
+
+
+#services{
+    flex-direction: column;
+}
+
+#services .box { 
+    padding: 14px;
+    margin: 2px 0px; 
+    margin-bottom: 20px;
+}
+
+
+#clients{
+    flex-wrap: wrap;
+}
+
+
+    width: 66px;
+    padding: 6px;
+    height: auto;
+}
+
+
+#contact-box form{
+    width:80%;
+}
+
+
+
+.h-primary{
+    font-size:26px;
+}
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+}
+
+}
     </style>
 </head>
 
@@ -266,7 +328,7 @@ footer{
         <h1 class="h-primary center">Our Services</h1>
         <div id="services">
             <div class="box">
-                <img src="/1.png" alt="">
+                <img src="1.png" alt="">
                 <h2 class="h-secondary center">Food Catering</h2>
                 <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, culpa suscipit error
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et qui, repudiandae similique nam, recusandae quidem ab asperiores ex, aut fugit labore veritatis facere?
@@ -274,7 +336,7 @@ footer{
                     voluptas beatae facilis labore, omnis sint quae eum.</p>
             </div>
             <div class="box">
-                <img src="/2.png" alt="">
+                <img src="2.png" alt="">
                 <h2 class="h-secondary center">Bulk Ordering</h2>
                 <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, culpa suscipit error
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde laudantium a incidunt animi ad, ab dignissimos vero? Unde numquam odit repudiandae perferendis nisi.
@@ -283,7 +345,7 @@ footer{
                     voluptas beatae facilis labore, omnis sint quae eum.</p>
             </div>
             <div class="box">
-                <img src="/3.png" alt="">
+                <img src="3.png" alt="">
                 <h2 class="h-secondary center">Food Ordering</h2>
                 <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, culpa suscipit error
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus provident fugiat aliquam minima at explicabo. Earum eveniet quaerat, sunt molestias nesciunt quas! Quis.
@@ -296,17 +358,17 @@ footer{
         <h1 class="h-primary center">Our Clients</h1>
         <div id="clients">
             <div class="client-item">
-                <img src="/logo1.png" alt="Our Client">
+                <img src="logo1.png" alt="Our Client">
             </div>
             <div class="client-item">
-                <img src="/logo2.png" alt="Our Client">
+                <img src="logo2.png" alt="Our Client">
             </div>
           
             <div class="client-item">
-                <img src="/logo4.png" alt="Our Client">
+                <img src="logo4.png" alt="Our Client">
             </div>
             <div class="client-item">
-                <img src="/logo3.png" alt="Our Client">
+                <img src="logo3.png" alt="Our Client">
             </div>
         </div>
 
