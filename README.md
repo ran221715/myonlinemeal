@@ -239,7 +239,7 @@ footer{
     text-align: center;
 }
 
-@media screen {
+@media screen and (max-width: 1170px){
     
 #navbar {
     flex-direction: column;
