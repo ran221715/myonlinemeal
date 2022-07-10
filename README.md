@@ -4,12 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Best Online Food Delivery Service in India | MyOnlineMeal.com</title>
-<!--     <link rel="stylesheet" href="/project2.css">
-    <link rel="stylesheet" media="screen and (max-width: 1170px)" href="/project2_phone.css"> -->
+    <title>Best Online Food Delivery Service</title>
     <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
-  <style>
-    *{
+    <style>
+      
+*{
     margin: 0;
     padding: 0;
 }
@@ -138,6 +137,7 @@ html{
 
 } 
 
+
 #client-section{ 
     position: relative;
 }
@@ -212,7 +212,6 @@ footer{
     padding: 9px 20px;
 }
 
-
 .h-primary{
     font-family: 'Bree Serif', serif;
     font-size: 3.8rem;
@@ -239,7 +238,9 @@ footer{
 .center{
     text-align: center;
 }
-@media only screen and (max-width: 1170px){
+
+@media screen {
+    
 #navbar {
     flex-direction: column;
 }
@@ -279,7 +280,7 @@ footer{
     flex-wrap: wrap;
 }
 
-
+#clients img{
     width: 66px;
     padding: 6px;
     height: auto;
@@ -299,8 +300,9 @@ footer{
     font-size: 13px;
     padding: 4px 8px;
 }
-
+    
 }
+
     </style>
 </head>
 
@@ -406,3 +408,5 @@ footer{
 </body>
 
 </html>
+
+
