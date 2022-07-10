@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Best Online Food Delivery Service in India | MyOnlineMeal.com</title>
-    <link rel="stylesheet" href="/project2.css">
-    <link rel="stylesheet" media="screen and (max-width: 1170px)" href="/project2_phone.css">
+    <link rel="stylesheet" href="project2.css">
+    <link rel="stylesheet" media="screen and (max-width: 1170px)" href="project2_phone.css">
     <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
 </head>
 
